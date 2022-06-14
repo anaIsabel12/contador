@@ -12,13 +12,13 @@ class Test_contador(unittest.TestCase):
         self.assertEqual(contador1.limite,5)
 
 
-    def test2(self):
+    #def test2(self):
         
-        c2=contador.Contador(limite=3)
+        #c2=contador.Contador(limite=3)
 
-        self.assertEqual(c2.inicial,0)
-        self.assertEqual(c2.incremento,1)
-        self.assertEqual(c2.limite,3)
+        #self.assertEqual(c2.inicial,0)
+        #self.assertEqual(c2.incremento,1)
+        #self.assertEqual(c2.limite,3)#
 
 if __name__=="__main__":
     unittest.main()

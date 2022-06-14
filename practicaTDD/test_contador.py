@@ -7,9 +7,9 @@ class Test_contador(unittest.TestCase):
     # Condiciones iniciales#
         contador1 = contador.Contador(0,2,5)
     #Verificar#
-        self.assertEqual(contador1.inicial,0)
-        self.assertEqual(contador1.incremento,2)
-        self.assertEqual(contador1.limite,5)
+        self.assertEqual(contador1.get_inicial(),0)
+        self.assertEqual(contador1.incremento(),2)
+        self.assertEqual(contador1.limite(),5)
 
 
     #def test2(self):

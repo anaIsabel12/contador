@@ -15,11 +15,15 @@ class Test_contador(unittest.TestCase):
     def test2(self):
         
         c2=contador.Contador(limite=3)
+
         self.assertEqual(c2.get_inicial(),0)
         self.assertEqual(c2.get_incremento(),1)
         self.assertEqual(c2.get_limite(),3)#
 
-        
+    def test3(self):
+        contador3=contador.Contador()
+
+        self.assertGreaterEqual(contador3.incremento(),0);
 
 if __name__=="__main__":
     unittest.main()

@@ -36,4 +36,4 @@ class Contador():
         return self.count
 
     def getContador(self):
-        return self.count
+        return self.__count

@@ -34,6 +34,10 @@ class Test_contador(unittest.TestCase):
         contador5=contador.Contador(0,3,10)
         contador5.incremento()
         self.assertEquals(contador5.reiniciar(),0)
-        
+    def test6(self):
+        contador6=contador.Contador(0,4,11)
+        contador6.incremento();
+        self.assertEquals(contador6.getContador(),1)
+
 if __name__=="__main__":
     unittest.main()

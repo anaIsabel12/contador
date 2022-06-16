@@ -19,8 +19,8 @@ class Contador():
 
     def incremento(self):
         if self.__count < self.__incremento:
-            self.__count = self.__count + self.__inicial
-
+            self.__count = self.__count + self.__incremento
+            
             if self.__count >= self.__limite:
                 self.__count = self.__inicial
                 return self.__count

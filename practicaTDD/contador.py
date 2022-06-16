@@ -31,9 +31,9 @@ class Contador():
         return self.__count
 
     def reiniciar (self):
-        self.count = self.inicial
+        self.__count = self.__inicial
 
-        return self.count
+        return self.__count
 
     def getContador(self):
         return self.__count

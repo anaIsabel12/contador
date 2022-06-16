@@ -18,17 +18,17 @@ class Contador():
         return self.__limite
 
     def incremento(self):
-        if self.count < self.incremento:
-            self.count = self.count + self.inicial
+        if self.__count < self.__incremento:
+            self.__count = self.__count + self.__inicial
 
-            if self.count >= self.limite:
-                self.count = self.inicial
-                return self.count
+            if self.__count >= self.__limite:
+                self.__count = self.__inicial
+                return self.__count
         else:
 
-            self.count = self.inicial
+            self.__count = self.__inicial
 
-        return self.count
+        return self.__count
 
     def reiniciar (self):
         self.count = self.inicial

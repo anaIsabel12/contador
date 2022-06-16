@@ -1,4 +1,4 @@
-from itertools import count
+
 
 
 class Contador():
@@ -8,10 +8,14 @@ class Contador():
        self.__inicial = inicial
        self.__incremento = incremento
        self.__limite = limite
-       self.__count = count
+       self.__count = inicial
 
     def get_inicial(self):
         return self.__inicial
+    def get_incremento(self):
+        return self.__incremento
+    def get_limite(self):
+        return self.__limite
 
     def incremento(self):
         if self.count < self.incremento:

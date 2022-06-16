@@ -9,7 +9,7 @@ class Test_contador(unittest.TestCase):
     #Verificar#
         self.assertEqual(contador1.get_inicial(),0)
         self.assertEqual(contador1.get_incremento(),2)
-        self.assertEqual(contador1.get_limite(),1)
+        self.assertEqual(contador1.get_limite(),5)
 
 
     def test2(self):
